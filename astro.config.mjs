@@ -7,6 +7,6 @@ import sitemap from "@astrojs/sitemap"
 // https://astro.build/config
 export default defineConfig({
 	integrations: [tailwind(), react(), icon(), sitemap()],
-	site: "",
-	base: "/",
+	site: " https://emanueldonner.github.io",
+	base: "/toolbox-reinigung",
 })
