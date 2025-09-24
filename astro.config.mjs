@@ -7,6 +7,6 @@ import sitemap from "@astrojs/sitemap"
 // https://astro.build/config
 export default defineConfig({
 	integrations: [tailwind(), react(), icon(), sitemap()],
-	site: "http://werkzeug-verleih.at",
+	site: "",
 	base: "/",
 })
