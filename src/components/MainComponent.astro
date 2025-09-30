@@ -2,12 +2,13 @@
 import { Image } from "astro:assets"
 import { Icon } from "astro-icon/components"
 import StadtWienLogo from "../assets/StadtWien_Logo.png"
-import ToolsImage from "../assets/tools_side.jpg"
-import ToolsStockImage from "../assets/tools_stock.jpg"
-import ToolsStart from "../assets/tools_start_v.jpg"
+import ToolsImage from "../assets/stock/pexels-tima-miroshnichenko-6196228.jpg"
+import ToolsStockImage from "../assets/stock/pexels-tima-miroshnichenko-6195951.jpg"
+import ToolsStart from "../assets/stock/pexels-alonssus-4401538.jpg"
 import AboutUs from "../assets/about_us.webp"
-import Drill from "../assets/tools/DDF485_C8C0_1724670187.webp"
-import Grinder from "../assets/tools/DBO380_C2R0_1724696245.webp"
+import Vacuum from "../assets/tools/12-2962014649.webp"
+import Steam from "../assets/tools/Kaercher-SC-4-EasyFix-2817052042.webp"
+
 import Cleaner from "../assets/tools/1193120_std_1-Portal_Image_High_3k_1725472813.webp"
 
 const tools = [
@@ -22,21 +23,21 @@ const tools = [
 	},
 	{
 		icon: "fluent:toolbox-12-filled",
-		image: Drill,
-		link: "https://toolbox24.at/products/1018/bohrmaschine-schlagbohrschrauber-akku-makita-dhp484",
+		image: Steam,
+		link: "https://toolbox24.at/products/1041/dampfreiniger-kärcher-sc4",
 		price: "8",
-		title: "Bohrmaschine",
+		title: "Dampf Reiniger",
 		description:
-			"Der Makita Akku-Bohrschrauber DHP484 ist das ideale Werkzeug für alle, die ein leistungsstarkes und zuverlässiges Profi-Werkzeug suchen.",
+			"Der Kärcher SC4 Dampfreiniger bietet eine umfassende und leistungsstarke Lösung für alle Deine Reinigungsbedürfnisse.",
 	},
 	{
 		icon: "fluent:wrench-24-filled",
-		image: Grinder,
+		image: Vacuum,
 		price: "12",
-		title: "Schleifmaschine",
-		link: "https://toolbox24.at/products/1032/schwingschleifer-schleifmaschine-akku-makita-dbo380-im-makpac",
+		title: "Nass und Trockensauger",
+		link: "https://www.makita.at/product/vc2512l.html",
 		description:
-			"Der Makita Akku-Schwingschleifer DBO380 ist das ideale Werkzeug für alle Deine Schleifarbeiten.",
+			"Ein solides Absauggerät für Nass- und Trockenbetrieb, Filterklasse L, für Reinigungsarbeiten und Absaugung bei Maschinen geeignet.",
 	},
 ]
 
@@ -46,7 +47,7 @@ const whyChooseUs = [
 	"Günstig & Platzsparend – Spar dir teure Käufe und Lagerplatz.",
 	"Nachhaltig handeln – Umweltfreundlich durch Teilen statt Kaufen.",
 	"Keine Wartung nötig – Reinigungsgeräte immer einsatzbereit, ohne Aufwand.",
-	"Profiwerkzeug - Zugang zu professioneller Ausrüstung.",
+	"Profigeräte - Zugang zu professioneller Ausrüstung.",
 ]
 
 const howItWorks = [
