@@ -35,7 +35,7 @@ const tools = [
 		image: Vacuum,
 		price: "12",
 		title: "Nass und Trockensauger",
-		link: "https://www.makita.at/product/vc2512l.html",
+		link: "https://toolbox24.at/products/1076/makita-profi-nass-trockensauger",
 		description:
 			"Ein solides Absauggerät für Nass- und Trockenbetrieb, Filterklasse L, für Reinigungsarbeiten und Absaugung bei Maschinen geeignet.",
 	},
@@ -54,12 +54,14 @@ const howItWorks = [
 	{
 		icon: "lucide:search",
 		title: "Reinigungsgerät finden",
-		description: "Reinigungsgerät online aussuchen und Verfügbarkeit überprüfen",
+		description:
+			"Reinigungsgerät online aussuchen und Verfügbarkeit überprüfen",
 	},
 	{
 		icon: "lucide:calendar",
 		title: "Produkt reservieren",
-		description: "Reserviere dein Reinigungsgerät und hole es rund um die Uhr ab.",
+		description:
+			"Reserviere dein Reinigungsgerät und hole es rund um die Uhr ab.",
 	},
 	{
 		icon: "lucide:box",
@@ -86,7 +88,7 @@ const howItWorks = [
 					}
 				})
 			},
-			{ threshold: 0.1 }
+			{ threshold: 0.1 },
 		)
 
 		document.querySelectorAll(".animate-on-scroll").forEach((el) => {
@@ -117,7 +119,7 @@ const howItWorks = [
 
 		// Load background image
 		const toolsBackgroundImage = document.getElementById(
-			"tools-background-image"
+			"tools-background-image",
 		)
 		const toolsBackgroundImageSrc = toolsBackgroundImage.getAttribute("src")
 		const toolsSection = document.getElementById("tool-section")
@@ -154,7 +156,8 @@ const howItWorks = [
 								Polsterreiniger leihen rund um die Uhr!
 							</h1>
 							<p class="max-w-[800px] text-gray-700 md:text-xl">
-								24/7 Zugang zu professionellen Reinigungsgeräten ohne hohe Kosten.
+								24/7 Zugang zu professionellen Reinigungsgeräten ohne hohe
+								Kosten.
 							</p>
 						</div>
 						<div
@@ -329,11 +332,8 @@ const howItWorks = [
 						<p class="text-gray-700">Sturzgasse 11, 1150 Wien</p>
 					</div>
 					<div class="contact-info">
-						<Icon
-							class="contact-icon h-5 w-5 text-gray-700"
-							name="ion:phone-portrait"
-						/>
-						<p class="text-gray-700">+43 (0) 681 845 14 313</p>
+						<Icon class="contact-icon h-5 w-5 text-gray-700" name="ion:pin" />
+						<p class="text-gray-700">Hannovergasse 8, 1220 Wien</p>
 					</div>
 					<div class="contact-info">
 						<Icon
@@ -398,8 +398,9 @@ const howItWorks = [
 							nachhaltige Lösung für Reinigungsgeräteverleih in Wien geschaffen.
 						</p>
 						<p class="text-l max-w-[500px]">
-							Unser Ziel: Rund um die Uhr Zugang zu hochwertigen Reinigungsgeräten für
-							alle eure Projekte – praktisch, benutzerfreundlich und nachhaltig!
+							Unser Ziel: Rund um die Uhr Zugang zu hochwertigen
+							Reinigungsgeräten für alle eure Projekte – praktisch,
+							benutzerfreundlich und nachhaltig!
 						</p>
 					</div>
 				</div>
@@ -468,7 +469,7 @@ const howItWorks = [
 	class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white"
 >
 	<p class="text-xs text-gray-700">
-		© 2024 Toolbox24. Alle Rechte vorbehalten.
+		© 2026 Toolbox24. Alle Rechte vorbehalten.
 	</p>
 	<nav class="sm:ml-auto flex gap-4 sm:gap-6">
 		<a
