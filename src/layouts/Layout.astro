@@ -16,7 +16,7 @@ const { title } = Astro.props
 		/>
 		<meta
 			name="keywords"
-			content="Werkzeug Miete 1010 Wien, Werkzeug Miete 1020 Wien, Werkzeug Miete 1030 Wien, Werkzeug Miete 1040 Wien, Werkzeug Miete 1050 Wien, Werkzeug Miete 1060 Wien, Werkzeug Miete 1070 Wien, Werkzeug Miete 1080 Wien, Werkzeug Miete 1090 Wien, Teppichreinigung 1010 Wien, Teppichreinigung 1020 Wien, Teppichreinigung 1030 Wien, Teppichreinigung 1040 Wien, Teppichreinigung 1050 Wien, Teppichreinigung 1060 Wien, Teppichreinigung 1070 Wien, Teppichreinigung 1080 Wien, Teppichreinigung 1090 Wien, Werkzeug Miete 1110 Wien, Werkzeug Miete 1120 Wien, Werkzeug Miete 1130 Wien, Werkzeug Miete 1140 Wien, Werkzeug Miete 1150 Wien, Werkzeug Miete 1160 Wien, Werkzeug Miete 1170 Wien, Werkzeug Miete 1180 Wien, Werkzeug Miete 1190 Wien, Teppichreinigung 1110 Wien, Teppichreinigung 1120 Wien, Teppichreinigung 1130 Wien, Teppichreinigung 1140 Wien, Teppichreinigung 1150 Wien, Teppichreinigung 1160 Wien, Teppichreinigung 1170 Wien, Teppichreinigung 1180 Wien, Teppichreinigung 1190 Wien"
+			content="Werkzeugvermietung Wien, Teppichreinigung Wien, Polsterreinigung Wien, Sofa Reinigung Wien, Auto Reinigung Wien, Reinigungsservice Wien, Toolbox24"
 		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -27,8 +27,34 @@ const { title } = Astro.props
 			{
 				"@context": "https://schema.org",
 				"@type": "LocalBusiness",
-				"name": "Toolbox24",
-				"description": "Werkzeug Miete und Teppichreinigung in Wien"
+				"name": "Toolbox24 Reinigung",
+				"description": "Professionelle Werkzeugvermietung, Teppichreinigung, Polsterreinigung, Sofa Reinigung und Auto Reinigung in Wien",
+				"url": "https://toolbox24.wien",
+				"areaServed": {
+					"@type": "City",
+					"name": "Wien",
+					"postalCodePrefix": ["1010", "1020", "1030", "1040", "1050", "1060", "1070", "1080", "1090", "1110", "1120", "1130", "1140", "1150", "1160", "1170", "1180", "1190"]
+				},
+				"address": [
+					{
+						"@type": "PostalAddress",
+						"streetAddress": "Sturzgasse 11",
+						"postalCode": "1150",
+						"addressLocality": "Wien",
+						"addressCountry": "AT",
+						"addressRegion": "Wien"
+					},
+					{
+						"@type": "PostalAddress",
+						"streetAddress": "Hannovergasse 8",
+						"postalCode": "1220",
+						"addressLocality": "Wien",
+						"addressCountry": "AT",
+						"addressRegion": "Wien"
+					}
+				],
+				"priceRange": "€€",
+				"serviceType": ["Werkzeugvermietung", "Teppichreinigung", "Polsterreinigung", "Sofa Reinigung", "Auto Reinigung"]
 			}
 		</script>
 	</head>
