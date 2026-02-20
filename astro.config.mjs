@@ -8,5 +8,5 @@ import sitemap from "@astrojs/sitemap"
 export default defineConfig({
 	integrations: [tailwind(), react(), icon(), sitemap()],
 	site: " https://emanueldonner.github.io",
-	base: "/toolbox-reinigung",
+	base: "/",
 })
