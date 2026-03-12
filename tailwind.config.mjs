@@ -8,6 +8,7 @@ export default {
 				"secondary-color": "var(--secondary-color)",
 				"secondary-bg-color": "var(--secondary-bg-color)",
 				"cta-color": "var(--cta-color)",
+				"cta-color-dark": "var(--cta-color-dark)",
 			},
 		},
 	},
